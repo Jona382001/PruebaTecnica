@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   padding: 0;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+
+.nav-link{
+    background: rgb(10, 168, 63);
+   text-align: center;
+   border-radius: 3px;
+   margin-top: 5px;
+   color: white;
+    cursor: pointer;
+    border:2px solid rgb(0, 0, 0);
+    font-weight: bold;
+}
+.nav-link:hover{
+    background: rgb(8, 158, 58);
+    color: white;
+}
+.datos{
+    background: khaki;
+    width: 100%;
+}
+.row{
+    margin-top: 10px;
+}
+
+.pruebas{
+    text-align: right;
+}
+.pruebas .nuevo{
+    background: rgb(10, 168, 63);
+    font-size: 20px;
+    font-weight: bold;
+}
+.tablaEmpresas{
+    margin-top: 20px;
+}
+td{
+    text-align: center;
+    height: 10px;
+}
+.btn-detalle{
+    
+    margin-bottom: 15px;
+}
+.btn-actualizar{
+    margin-bottom: 15px;
+    
+}
+#actualizar{
+    display: none;
+}
